@@ -13,7 +13,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/fastjson-1.2.38.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/c3p0-0.9.1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -31,7 +31,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/commons-collections-3.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -59,6 +59,15 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/ezmorph-1.0.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/fastjson-1.2.38.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -139,7 +148,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/commons-collections-3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -212,15 +221,6 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../webapp/WEB-INF/lib/c3p0-0.9.1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
