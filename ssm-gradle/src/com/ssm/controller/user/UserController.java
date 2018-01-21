@@ -6,6 +6,7 @@ import java.util.Map;
 
 
 import com.ssm.entity.PageBean;
+import com.ssm.entity.ToJson;
 import com.ssm.entity.User;
 import com.ssm.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,15 +30,11 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
-	@ResponseBody
-	@RequestMapping("/userlist")
-	public String userlist(){
+	@RequestMapping("/getAjaxUser")
+   public ToJson<User> getAjaxUser(){
 
-
-		return  "list";
-	}
-
-
+		return userService.getAjaxUser();
+   }
 
 
 

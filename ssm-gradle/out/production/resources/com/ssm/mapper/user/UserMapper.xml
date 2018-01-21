@@ -7,9 +7,11 @@
  	<select id="getUserById" resultType="com.ssm.entity.User" >
  			select * from user where id =#{id}
  	</select>
- 	
- 	
- 	                 <!-- 查询及分页 -->
+	<select id="getAjaxUser" resultType="com.ssm.entity.User" >
+	select * from user
+	</select>
+
+	<!-- 查询及分页 -->
  	<select id="getUsers" resultType="com.ssm.entity.User" >
  			select * from user 
  		<where>

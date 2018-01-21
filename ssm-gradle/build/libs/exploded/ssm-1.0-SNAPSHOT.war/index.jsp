@@ -7,8 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="user/list2">查看所有用户</a>
 <a href="user/list">查看所有用户list</a>
-<a href="/user/userlist">查看所有用户list2</a>
+<br>
+<a href="user/getAjaxUser">通过ajax获取数据</a>
+<br>
+<a href="/user/ajaxJsp">点击进入jsp</a>
+
 </body>
 </html>

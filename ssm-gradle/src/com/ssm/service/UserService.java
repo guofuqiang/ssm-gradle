@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.ssm.dao.UserMapper;
+import com.ssm.entity.ToJson;
 import com.ssm.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,5 +34,25 @@ public class UserService {
 	
 	public int deleteUser(Integer id){
 		return userMapper.deleteUser(id);
+	}
+
+	public ToJson<User> getAjaxUser(){
+
+		ToJson<User> toJson=new ToJson<User>(0,"error");
+		List<User> userList=userMapper.getAjaxUser();
+
+		if(userList!=null){
+
+
+			toJson.setFlag(0);
+			toJson.setMsg("查询成功");
+			toJson.setObj(userList);
+		}else{
+
+			toJson.setFlag(1);
+			toJson.setMsg("数据为空");
+		}
+      return  toJson;
+
 	}
 }

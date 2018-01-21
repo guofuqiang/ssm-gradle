@@ -5,8 +5,9 @@ import
 import java.util.Map;
 
 import com.ssm.entity.User;
+import org.springframework.stereotype.Repository;
 
-
+@Repository
 public interface UserMapper {
 	public User getUserById(int id);
 	
@@ -19,4 +20,5 @@ public interface UserMapper {
 	public int addUser(User user);
 	
 	public int deleteUser(Integer id);
+	  List<User> getAjaxUser();
 }

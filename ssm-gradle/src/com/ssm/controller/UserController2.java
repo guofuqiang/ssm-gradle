@@ -49,8 +49,14 @@ public class UserController2{
     @RequestMapping("list")
     public String list(){
 
-        return "list2";
+        return "/app/list";
     }
+    @RequestMapping("/ajaxJsp")
+    public  String ajaxjsp(){
+
+        return "/app/ajaxUser";
+    }
+
 
     @RequestMapping("/save")
     public String save(User user,HttpServletResponse response)throws Exception{
