@@ -9,8 +9,19 @@
 <html>
 <head>
     <title>Title</title>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.9.1.js"></script>
+   <script type="text/javascript" src="${pageContext.request.contextPath}/js/user.js"></script>
 </head>
 <body>
-sadsa
+<table>
+    <thead>
+       <tr>
+           <td>编号</td>
+           <td>姓名</td>
+           <td>电话</td>
+       </tr>
+    </thead>
+    <tbody></tbody>
+</table>
 </body>
 </html>
